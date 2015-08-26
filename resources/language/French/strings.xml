@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Settings -->
+    <string id="30000">Général</string>
+    <string id="30001">Nom d'utilisateur</string>
+    <string id="30002">Mot de passe</string>
+
+    <string id="30009">Toujours demander pour la qualité vidéo</string>
+    <string id="30010">Qualité vidéo</string>
+    <string id="30011">480p</string>
+	<string id="30012">720p (HD)</string>
+	<string id="30013">1080p (HD)</string>
+    <string id="30014">2160p (4k)</string>
+    <string id="30015">4320p (8k)</string>
+    <string id="30016">240p</string>
+    <string id="30017">360p</string>
+
+    <string id="30020">Autoriser la 3D</string>
+    <string id="30021">Afficher le papier peint</string>
+    <string id="30022">Articles par page</string>
+    <string id="30023">Taille de l'historique de recherche</string>
+    <string id="30024">Taille du cache (MB)</string>
+    <string id="30025">Activer le logiciel d'installation</string>
+    <string id="30026">Modifier les vues</string>
+    <string id="30027">Vue: Défault</string>
+    <string id="30028">Vue: Episodes</string>
+    <string id="30029">Vue: Films</string>
+    <string id="30030">Exécuter le logiciel d'installation?</string>
+    <string id="30031">Avancé</string>
+    <string id="30032">Vue: Séries TV</string>
+    <string id="30033">Vue: Musiques</string>
+    <string id="30034">Vue: Artistes</string>
+    <string id="30035">Vue: Albums</string>
+    <string id="30036">Activer le lecteur alternatif</string>
+    <string id="30037">Vider le cache</string>
+
+    <!-- Common -->
+    <string id="30100">Favoris</string>
+    <string id="30101">Ajouter aux favoris</string>
+    <string id="30102">Rechercher</string>
+    <string id="30103">Librairie</string>
+    <string id="30104">Points forts</string>
+    <string id="30105">Archive</string>
+    <string id="30106">Page suivante (%d)</string>
+    <string id="30107">Regarder plus tard</string>
+    <string id="30108">Effacer</string>
+    <string id="30109">Dernières Vidéos</string>
+    <string id="30110">Nouvelle Recherche</string>
+    <string id="30111">Se connecter</string>
+    <string id="30112">Se déconnecter</string>
+    <string id="30113">Renommer</string>
+    <string id="30114">Confirmer la suppression</string>
+    <string id="30115">Confirmer l'effacement</string>
+    <string id="30116">Supprimer "%s"?</string>
+    <string id="30117">Effacer "%s"?</string>
+    <string id="30118">Supprimer</string>
+    <string id="30119">Patientez svp...</string>
+    <string id="30120">Nettoyer</string>
+
+    <!-- SoundCloud -->
+    <string id="30500">Explorer</string>
+    <string id="30501">Musiques Tendances</string>
+    <string id="30502">Audio Tendances</string>
+    <string id="30503">Genres Musicaux</string>
+    <string id="30504">Genres Audio</string>
+    <string id="30505">Stream</string>
+    <string id="30506">Playlists</string>
+    <string id="30507">Abonnements</string>
+    <string id="30508">Suivre</string>
+    <string id="30509">Abonnés</string>
+    <string id="30510">J'aimes</string>
+    <string id="30511">J'aime</string>
+    <string id="30512">Morceaux</string>
+    <string id="30513">Ne plus suivre</string>
+    <string id="30514">Je n'aime plus</string>
+    <string id="30515">Personnes</string>
+    <string id="30516">Aller à %s</string>
+    <string id="30517">Morceaux recommandés</string>
+    <string id="30518">Afficher le papier peint sombre</string>
+    <string id="30519">Mettre en place la connection?</string>
+</strings>
