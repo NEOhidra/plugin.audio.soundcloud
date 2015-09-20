@@ -1,8 +1,6 @@
-import uuid
-
 __author__ = 'bromix'
 
-import urlparse
+import uuid
 import urllib
 import urllib2
 from StringIO import StringIO
@@ -161,7 +159,7 @@ def _request(method, url,
             request_data = ''
             for name, value in data.iteritems():
                 request_data += '--%s\r\nContent-Disposition: form-data; name="%s"\r\nContent-Length: %d\r\n\r\n%s\r\n' % (
-                boundary, name, len(value), value)
+                    boundary, name, len(value), value)
                 pass
             request_data += '--%s--\r\n' % boundary
             request_data = utils.strings.to_utf8(request_data)
