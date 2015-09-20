@@ -125,7 +125,19 @@ def convert_to_items(json_result, mobile_conversion=False, process_tracks_of_pla
             pass
 
         # test if we have an 'origin' tag. If so we are in the activities
-        item = item.get('origin', item)
+        origin = item.get('origin', None)
+        if origin is None:
+            """
+            One issue is known (https://github.com/bromix/plugin.audio.soundcloud/issues/27) in which SoundCloud returns
+            an incomplete item without origin or anything else. We skip these items.
+            """
+            continue
+            pass
+        else:
+            # the origin is valid and can be used
+            item = origin
+            pass
+
         item = convert_to_item(item)
         if item:
             if process_tracks_of_playlist:
